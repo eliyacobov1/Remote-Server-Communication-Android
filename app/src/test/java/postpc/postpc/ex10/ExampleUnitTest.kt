@@ -1,4 +1,4 @@
-package postpc.ex7.ex10
+package postpc.postpc.ex10
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package postpc.ex7.ex10
+package postpc.postpc.ex10
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
