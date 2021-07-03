@@ -1,3 +1,3 @@
 # Remote-Server-Communication-Android
 
-<img src="./img1.png" width="200" height="500"/>
+<img src="./img1.png" width="200" height="300"/>
