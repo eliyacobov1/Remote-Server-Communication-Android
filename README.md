@@ -1,13 +1,13 @@
 # Remote-Server-Communication-Android
 
-![Optional Text](./img1.PNG)
+![Optional Text](./img1.png)
 
-![Optional Text](./img2.PNG)
+![Optional Text](./img2.png)
 
-![Optional Text](./img3.PNG)
+![Optional Text](./img3.png)
 
-![Optional Text](./img4.PNG)
+![Optional Text](./img4.png)
 
-![Optional Text](./img5.PNG)
+![Optional Text](./img5.png)
 
-![Optional Text](./img6.PNG)
+![Optional Text](./img6.png)
