@@ -10,6 +10,7 @@
 
 I pledge the highest level of ethical principles in support of academic excellence. I ensure that all of my work reflects my own abilities and not those of someone else.
 <hr/>
+
 ## App Screenshots:
 
 <img src="./img1.png" width="200" height="300"/>
