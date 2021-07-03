@@ -2,7 +2,6 @@ package postpc.postpc.ex10
 
 import android.Manifest
 import android.content.Context
-import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.View
@@ -31,7 +30,6 @@ class MainActivity : AppCompatActivity() {
     private var currToken: String? = null
     private lateinit var connectButton: Button
     private lateinit var userNameInput: EditText
-    private var sp: SharedPreferences? = null
 
     /**
      *  this method hides the on-screen keyboard
@@ -129,7 +127,7 @@ class MainActivity : AppCompatActivity() {
                         if (token.data == "") {
                             return@Observer
                         }
-                        saveToken(token.data)
+                        currToken = token.data
                         getUserOrTokenRequest()
                     }
                 })
@@ -223,9 +221,5 @@ class MainActivity : AppCompatActivity() {
             != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.INTERNET), 100)
         }
-    }
-
-    private fun saveToken(token: String) {
-        currToken = token
     }
 }
